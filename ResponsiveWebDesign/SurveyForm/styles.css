@@ -1,0 +1,72 @@
+body {
+  width: auto;
+  height: 100vh;
+  margin: 0;
+  background-color: #1b1b32;
+  color: #f5f6f7;
+  font-family: Tahoma;
+  font-size: 14px;
+}
+
+header {
+  margin: 1em auto;
+  text-align: center;
+}
+
+section {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+fieldset {
+  padding: 1rem 1.5rem;
+  margin: 1em auto;
+  border-radius: 0.5rem;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 0.3rem 0 0.5rem 0;
+  width: 100%;
+  min-height: 2em;
+  box-sizing: border-box;
+  padding: 0 0.5rem;
+  opacity: 65%;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+p {
+  margin-bottom: 1rem;
+  font-size: 14px;
+}
+
+legend {
+  font-size: 16px;
+  padding: 0 1rem;
+}
+
+.area {
+  margin-top: 0.2rem;
+  min-height: 120px;
+}
+
+.submit-button {
+  background-color: cadetblue;
+  margin: 1em auto;
+  width: 35%;
+  min-height: 45px;
+}

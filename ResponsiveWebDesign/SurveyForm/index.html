@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>freeCodeCamp Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+      <p id="description">
+        Thank you for taking the time to help us improve the platform
+      </p>
+    </header>
+    <section>
+      <form
+        id="survey-form"
+        method="post"
+        action="https://register-demo.freecodecamp.org"
+      >
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label id="name-label" for="name" 
+            >Name<input
+              id="name"
+              type="text"
+              required
+              placeholder="Enter your name"
+            />
+          </label>
+          <label id="email-label" for="email"
+            >Email<input
+              id="email"
+              type="email"
+              required
+              placeholder="Enter your email"
+          /></label>
+          <label id="number-label" for="number"
+            >Age(optional)<input
+              id="number"
+              type="number"
+              min="8"
+              max="20"
+              placeholder="Age"
+          /></label>
+          <label>
+            Which describes your current role the best?<select id="dropdown">
+              <option>Beginner</option>
+              <option>Intermediate</option>
+              <option>Expert</option>
+            </select>
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Account Type</legend>
+          <p>Select your account type:</p>
+          <label for="premium-account">
+            <input
+              type="radio"
+              id="premium-account"
+              name="account-type"
+              class="inline"
+              value="post";
+            />Premium User
+          </label>
+          <label for="free-user"
+            ><input
+              type="radio"
+              id="free-user"
+              name="account-type"
+              class="inline"
+              value="post";
+            />Free User</label
+          >
+        </fieldset>
+        <fieldset>
+          <legend>Topics</legend>
+          <p>Which topic woudl like to get covered?</p>
+          <label><input type="checkbox" value="post" class="inline" />Web Design</label>
+          <label><input type="checkbox" value="post" class="inline" />Backend</label>
+          <label
+            ><input type="checkbox" value="post" class="inline" />Software Testing</label
+          >
+          <label><input type="checkbox" value="post" class="inline" />Data Analyst</label>
+        </fieldset>
+        <fieldset>
+          <legend>Suggestions</legend>
+          <label for="suggestion"></label>
+            <textarea
+              id="suggestion"
+              name="suggestion"
+              rows="6"
+              cols="30"
+              wrap="physical"
+              class="area"
+            >
+            </textarea>
+          </label>
+        </fieldset>
+        <input id="submit" type="submit" class="submit-button" value="Submit"></input>
+      </form>
+    </section>
+  </body>
+</html>
