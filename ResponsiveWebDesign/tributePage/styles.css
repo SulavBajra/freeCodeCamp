@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #333;
+  margin: 0;
+  display: block;
+  background-color: honeydew;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+.title-part,
+.footer-part {
+  margin-top: -0.5rem;
+  text-align: center;
+  margin-bottom: 0%;
+}
+
+.early-life {
+  text-align: justify;
+  margin-top: -2rem;
+  margin-right: 4rem;
+  margin-left: 4rem;
+  padding: 2rem;
+}
+
+ul li {
+  text-align: justify;
+  display: block;
+  font-weight: bold;
+  margin-bottom: auto;
+  margin-left: 2rem;
+}
+
+.list-part {
+  margin-top: auto;
+  text-align: justify;
+  margin-right: 4rem;
+  margin-left: 4rem;
+}
+
+.death-part {
+  margin-top: -1rem;
+  text-align: justify;
+  margin-right: 4rem;
+  margin-left: 4rem;
+}
+
+.title-part {
+  margin-top: -1.7em;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+  font-size: 26px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
